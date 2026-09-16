@@ -23,10 +23,15 @@ SANE separates its licensing, and the distinction matters here. From the project
   such exception and are plain GPL.
 
 Because the app ships `scanimage`, any distribution of Papertrail is a distribution of GPL
-software, and the corresponding source has to be offered to whoever receives it. Papertrail's
-own source is public, which covers its side; the SANE source for the bundled version is at
-<https://gitlab.com/sane-project/backends> and the released tarballs are at
-<https://gitlab.com/sane-project/backends/-/releases>.
+software, and the corresponding source has to be offered to whoever receives it. What has to be
+offered is the source for the GPL parts: `scanimage` and the backends, unmodified, at
+<https://gitlab.com/sane-project/backends>, with the released tarballs at
+<https://gitlab.com/sane-project/backends/-/releases>. This notice ships inside the disk image
+and is published alongside the download, which is how that offer is made.
+
+Papertrail's own source is not covered by that obligation and is not published. It runs
+`scanimage` as a separate process rather than linking it, so the two stay separate works and
+the GPL does not reach across.
 
 **This rules out the Mac App Store and TestFlight.** Their terms impose usage restrictions
 that the GPL does not permit anyone to add, which is why GPL software has been pulled from the
