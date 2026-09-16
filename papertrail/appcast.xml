@@ -3,6 +3,18 @@
     <channel>
         <title>Papertrail</title>
         <item>
+            <title>0.3</title>
+            <pubDate>Wed, 16 Sep 2026 11:02:44 -0500</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://mosatch.github.io/papertrail/Papertrail-0.3.dmg" length="12658882" type="application/octet-stream" sparkle:edSignature="AfdVkwBcGv6sA+yeK7rb7jnluyttk4CE8oOTgu/nkp1NIDT/ISuLnCdSvVvFFaVCDUMwOw/7q1184WU2wBXqBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://mosatch.github.io/papertrail/Papertrail3-2.delta" sparkle:deltaFrom="2" length="247294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GViHhCiRGjthXP/mBNob0b8OexmTlR8yISW3t6MesgsLo7IZt9JRNV1qQT92Qix68ezxIFb+/kemLvHROnpwDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2</title>
             <pubDate>Mon, 07 Sep 2026 22:50:39 -0500</pubDate>
             <sparkle:version>2</sparkle:version>
