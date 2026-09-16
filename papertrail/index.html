@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Papertrail</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    max-width: 34rem; margin: 0 auto; padding: 3rem 1.5rem 4rem;
+  }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; }
+  .tagline { color: GrayText; margin: 0 0 2.5rem; }
+  .download {
+    display: inline-block; padding: .7rem 1.4rem; border-radius: .6rem;
+    background: #0a6cff; color: #fff; text-decoration: none; font-weight: 600;
+  }
+  .meta { color: GrayText; font-size: .875rem; margin-top: .75rem; }
+  h2 { font-size: 1rem; margin: 2.5rem 0 .5rem; }
+  ol { padding-left: 1.2rem; }
+  footer { margin-top: 3rem; font-size: .8125rem; color: GrayText; }
+  a { color: #0a6cff; }
+</style>
+</head>
+<body>
+
+<h1>Papertrail</h1>
+<p class="tagline">Batch scanning for the ScanSnap S1500M, with searchable PDFs at the end of it.</p>
+
+<p><a class="download" href="Papertrail-0.2.dmg">Download Papertrail 0.2</a></p>
+<p class="meta">12.5 MB &middot; Apple silicon &middot; macOS 26 or later</p>
+
+<h2>Installing</h2>
+<ol>
+  <li>Open the disk image and drag Papertrail to your Applications folder.</li>
+  <li>Plug the scanner in and switch it on.</li>
+  <li>Open Papertrail and pick a folder for the library. That folder holds nothing but
+      PDFs, so it stays useful without the app.</li>
+</ol>
+<p>Nothing else to install &mdash; the scanner driver ships inside the app. Later versions
+   arrive on their own; Papertrail checks for them once a day.</p>
+
+<h2>Scanning</h2>
+<p>Press the Scan button on the front of the scanner and feed the stack. Each page is read
+   with OCR, turned the right way up, and filed as a PDF you can search in Spotlight.</p>
+
+<footer>
+  <p>Papertrail bundles <a href="https://gitlab.com/sane-project/backends">SANE</a>, which is
+     free software under the GPL. The corresponding source is at the link above, and the
+     full notice ships with the app and is also
+     <a href="THIRD-PARTY-LICENSES.md">here</a>.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Papertrail</title>
+        <item>
+            <title>0.2</title>
+            <pubDate>Mon, 07 Sep 2026 22:50:39 -0500</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://mosatch.github.io/papertrail/Papertrail-0.2.dmg" length="13093384" type="application/octet-stream" sparkle:edSignature="WPngyN5CaiAc5rU1kyBn+vYq8ubKtVRHHr98PCvmz0+sZrZvdbGFjBI0CzjhjuxIKQa84ZtZGYpFMdTdJ4OsAg=="/>
+        </item>
+    </channel>
+</rss>
